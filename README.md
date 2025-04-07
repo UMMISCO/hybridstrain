@@ -66,11 +66,13 @@ It will save the results in `scripts/skani_search_against_ref`.
 
 #### Simulated dataset
 
-Code for simulation is stored in [simulation](simulation/).
+Code for simulation is stored in [`simulation`](simulation/).
 We've used metagen-simulator2 for short-read simulation and Nanosim v3.2.2 for long-read simulation.
+
+[`simulation/README.md`](simulation/README.md) provides more information.
 
 #### Results
 
-Excel tables with stats on simulated samples, assembly and binning is available at [`data`](data/).
+Excel table with stats on simulated samples, assembly and binning is available at [`data`](data/).
 
-These tables are available in individual TSV in [`data/tables`](data/tables).
+These tables are available in individual TSV in [`data/tables`](data/tables)

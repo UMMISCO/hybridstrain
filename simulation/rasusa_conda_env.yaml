@@ -1,0 +1,17 @@
+name: rasusa2.1.0
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - gdbm=1.18
+  - libgcc=14.2.0
+  - libgcc-ng=14.2.0
+  - libgomp=14.2.0
+  - ncurses=6.4
+  - parallel=20241122
+  - perl=5.34.0
+  - rasusa=2.1.0
+  - readline=8.2
