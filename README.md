@@ -55,11 +55,12 @@ rule all:
 
 For Skani pairwise comparison of produced MAGs use the supplementary script [`metageno-pipeline/workflow/scripts/other_scripts/skani_analysis.py`](metageno-pipeline/workflow/scripts/other_scripts/skani_analysis.py).
 
-If you want to have assembly metrics based on only specific reference genomes introduced in each simulated samples (NA50, NGA50... only on genomes of simulation) better use the file [`scripts/metaquast_command.txt`](scripts/metaquast_command.txt) that already contains the exact reference genomes by sample for MetaQUAST.
+If you want to have assembly metrics based on only specific reference genomes introduced in each simulated samples (NA50, NGA50... only on genomes of simulation) better use the file [`scripts/metaquast_commands.txt`](scripts/metaquast_commands.txt) that already contains the exact reference genomes by sample for MetaQUAST.
 
 ### Scripts
 
 ANI comparison to references before and after dereplication script is at [`scripts/skani_bins_vs_references.sh`](scripts/skani_bins_vs_references.sh).
+It will save the results in `scripts/skani_search_against_ref`.
 
 ### Data
 
