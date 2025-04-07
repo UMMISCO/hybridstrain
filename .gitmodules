@@ -1,0 +1,3 @@
+[submodule "metageno-pipeline"]
+	path = metageno-pipeline
+	url = git@github.com:baptwr/metageno-pipeline.git
